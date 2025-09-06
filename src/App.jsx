@@ -8,9 +8,7 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path="/" Component={EnvioList} />
-      <Route path="/envios/novo" Component={EnvioForm} />
-      <Route path="/envios/editar/:id" Component={EnvioForm} />
+      <Route path="/" Component={CadastroProduto} />
     </Routes>
     </>
   );
