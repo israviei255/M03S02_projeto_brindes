@@ -1,14 +1,14 @@
 import { Routes, Route } from "react-router-dom";
 
-import EnvioForm from "./pages/Envios/EnvioForm/EnvioForm";
-import EnvioList from "./pages/Envios/EnviosList/EnviosList";
-import "./index.css";
+import CadastroProduto from "./pages/CadastroProduto/CadastroProduto";
+import TelaListagem from "./pages/TelaListagem/TelaListagem";
 
 function App() {
   return (
     <>
     <Routes>
       <Route path="/" Component={CadastroProduto} />
+      <Route path="/listagem" Component={TelaListagem} />
     </Routes>
     </>
   );
