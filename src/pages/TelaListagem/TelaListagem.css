@@ -1,0 +1,64 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+    list-style-type: none;
+    padding: 0px;
+    margin: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    font-size: 80%;
+    width: 80%;
+    padding: 20px;
+
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.132);
+}
+
+.nome-produto {
+    font-size: 120%;
+}
+
+.imagem-produto {
+    width: 80%;
+
+    align-self: center;
+}
+
+.botoes-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.btn-branco {
+    background-color: white;
+    color: rgb(90, 87, 87);
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+.btn-preto {
+    background-color: rgb(37, 35, 35);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+
+#form-filtro {
+    display: flex;
+    gap: 20px;
+    width: 20%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#btn-filtro {
+    padding: 0px 15px;
+    
+}
